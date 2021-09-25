@@ -1,0 +1,17 @@
+{
+  "name": "pratica_2",
+  "version": "1.0.0",
+  "description": "Diferentes formas de passar parametros para requisições",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Brendhon Moreira",
+  "license": "MIT",
+  "dependencies": {
+    "restify": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

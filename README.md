@@ -4,3 +4,8 @@ Exercícios realizados para colocar em prática os conhecimentos adquiridos na d
 
 ### Atividades
  - **[Prática 1](https://github.com/Brendhon/C216-Sistemas_Distribuidos/tree/main/Pratica%201)**: Iniciar um servidor básico utilizando o framework [Restify](http://restify.com/);
+ - **[Prática 2](https://github.com/Brendhon/C216-Sistemas_Distribuidos/tree/main/Pratica%202)**: Diferentes formas de passar parametros para requisições (Path, Query e Body)
+
+### Tecnologias utilizadas
+- **[Restify](http://restify.com/)**;
+- **[Nodemon](https://www.npmjs.com/package/nodemon)**;
