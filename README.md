@@ -28,4 +28,4 @@ Para executar o script:
   npm run migrate:exec # Executa as migrations
  ```
  
-Foram criados outros scripts e comandos com relação ao banco, deem uma olhada no arquivo **[package.json](https://github.com/Brendhon/C216-Sistemas_Distribuidos)** para saber mais.
+Foram criados outros scripts e comandos com relação ao banco, deem uma olhada no arquivo **[package.json](https://github.com/Brendhon/C216-Sistemas_Distribuidos/blob/main/package.json)** para saber mais.
