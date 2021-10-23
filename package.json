@@ -1,0 +1,36 @@
+{
+  "name": "c216-sistemas_distribuidos",
+  "version": "1.0.0",
+  "description": "Exercícios realizados para colocar em prática os conhecimentos adquiridos na disciplina de **C216** (Sistemas Distribuidos) durante a graduação em Engenharia de Computação pelo **[Inatel](https://inatel.br/home/)**.",
+  "main": "index.js",
+  "scripts": {
+    "start:p1": "nodemon ./Pratica1",
+    "start:p2": "nodemon ./Pratica2",
+    "start:p3": "nodemon ./Pratica3",
+    "start:p4": "nodemon ./Pratica4",
+    "create:db": "sh ./scripts/create-db.sh",
+    "start:db": "sh ./scripts/start-db.sh",
+    "delete:db": "sh ./scripts/delete-db.sh",
+    "migrate:make": "knex migrate:make",
+    "migrate:exec": "knex migrate:latest",
+    "migrate:roll": "knex migrate:rollback"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brendhon/C216-Sistemas_Distribuidos.git"
+  },
+  "author": "Brendhon Moreira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Brendhon/C216-Sistemas_Distribuidos/issues"
+  },
+  "homepage": "https://github.com/Brendhon/C216-Sistemas_Distribuidos#readme",
+  "dependencies": {
+    "knex": "^0.95.11",
+    "pg": "^8.7.1",
+    "restify": "^8.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
